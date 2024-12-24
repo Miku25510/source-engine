@@ -34,3 +34,4 @@ jobs:
       with:
         name: mod-apk
         path: mod-release.apk
+        retention-days: 10  # ลบใน 10 วัน
