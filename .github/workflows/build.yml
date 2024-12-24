@@ -156,3 +156,4 @@ jobs:
       with:
         name: macos-dedicated-amd64
         path: bin
+        retention-days: 10  # ลบใน 10 วัน
