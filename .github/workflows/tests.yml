@@ -58,3 +58,4 @@ jobs:
         cd out
         $env:Path = "bin";
         ./unittest.exe
+        retention-days: 10  # ลบใน 10 วัน
