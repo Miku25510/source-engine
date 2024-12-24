@@ -161,6 +161,10 @@ ConVar	sk_plr_dmg_smg1_grenade	( "sk_plr_dmg_smg1_grenade","0", FCVAR_REPLICATED
 ConVar	sk_npc_dmg_smg1_grenade	( "sk_npc_dmg_smg1_grenade","0", FCVAR_REPLICATED);
 ConVar	sk_max_smg1_grenade		( "sk_max_smg1_grenade","0", FCVAR_REPLICATED );
 
+ConVar  sk_plr_dmg_stickybomb        ("sk_plr_dmg_stickybomb", "0", FCVAR_REPLICATED);
+ConVar  sk_npc_dmg_stickybomb        ("sk_npc_dmg_stickybomb", "0", FCVAR_REPLICATED);
+ConVar  sk_max_stickybomb                ("sk_max_stickybomb", "0", FCVAR_REPLICATED);
+
 ConVar	sk_plr_dmg_357			( "sk_plr_dmg_357", "0", FCVAR_REPLICATED );
 ConVar	sk_npc_dmg_357			( "sk_npc_dmg_357", "0", FCVAR_REPLICATED );
 ConVar	sk_max_357				( "sk_max_357", "0", FCVAR_REPLICATED );
