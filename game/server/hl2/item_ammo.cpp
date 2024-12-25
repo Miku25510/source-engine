@@ -91,7 +91,7 @@ public:
 	}
 	bool MyTouch(CBasePlayer *pPlayer)
 	{
-		if (ITEM_GiveAmmo(pPlayer, SIZE_AMMO_NAILGUN_LARGE, "NAILGUN"))
+		if (ITEM_GiveAmmo(pPlayer, SIZE_AMMO_NAILGUN_LARGE, "Nailgun"))
 		{
 			if (g_pGameRules->ItemShouldRespawn(this) == GR_ITEM_RESPAWN_NO)
 			{
