@@ -23,6 +23,8 @@
 // Ammo counts given by ammo items
 #define SIZE_AMMO_PISTOL			20
 #define SIZE_AMMO_PISTOL_LARGE		100
+#define SIZE_AMMO_MINIGUN   		450
+#define SIZE_AMMO_MINIGUN_LARGE		425
 #define SIZE_AMMO_NAILGUN   		20
 #define SIZE_AMMO_NAILGUN_LARGE		200
 #define SIZE_AMMO_SMG1				45
