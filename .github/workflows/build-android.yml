@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Cloning modlaucher repo and preparing for building
       run: |
         git clone https://github.com/ItzVladik/srceng-mod-launcher
@@ -16,7 +16,7 @@ jobs:
         sudo apt-get install -f -y openjdk-8-jre zip apksigner imagemagick
     - name: Build Android (32 bit)
       run: |
-        scripts/build-android-armv7a.sh
+        scripts/build-android-armv7a.sh 
     - name: Build Android (64 bit)
       run: |
         chmod +x scripts/build-android-aarch64.sh
@@ -30,7 +30,7 @@ jobs:
          mv srceng-mod-launcher/build/android/mod-signed.apk mod-release.apk
 
     - name: 'Upload Artifact'
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: mod-apk
         path: mod-release.apk
